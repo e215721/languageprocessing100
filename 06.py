@@ -8,7 +8,7 @@ def n_gram(text, n):   #関数n_gramを定義する。引数として"text" and 
 
 text1 = "paraparaparadise"
 text2 = "paragraph"
-X = set(n_gram(text1,2))
+X = set(n_gram(text1,2))    #set型：重複する要素が除外されて生成される。
 Y = set(n_gram(text2, 2))
 print('X: ', X)
 print('Y: ', Y)
